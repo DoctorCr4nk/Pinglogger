@@ -28,11 +28,12 @@ FormatPing ()
 
 if [ -z $1 ]
 then
+echo "Time,Interface,Target,RC,RTT"
 for i in ${Targets}
 do
     for j in ${Interfaces}
     do
-        FormattedPing ${j} ${i}
+        FormatPing ${j} ${i}
     done
 done
 else ### Save file
