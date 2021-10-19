@@ -26,11 +26,6 @@ FormatPing ()
     fi
 }
 
-help ()
-{
-
-}
-
 if [ -z $1 ]
 then
 for i in ${Targets}

@@ -2,6 +2,7 @@
 Small bash script to ping certain targets and log into a csv file.
 
 ## Planned in the future
+* help page
 * multiple pings at the same time with '&' possible?
 * config file
 * Installer
